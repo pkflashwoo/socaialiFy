@@ -1,0 +1,52 @@
+.postImage{
+    object-fit: contain;
+    width: 100%;
+    margin-top: 4%;
+}
+.postOuter{
+   
+    margin-bottom: 1rem;
+    border-bottom: 1px groove;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.postRight{
+    margin-left: 3%;
+}
+
+.postImageInside
+{
+    border: white groove 1px;
+    border-radius: 10px;
+}
+.postUserName{
+    cursor: pointer;
+   margin-bottom: 4px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    transition: 0.3s ease-in;
+}
+.postUserName:hover{
+    border-bottom: 2px solid white;
+}
+.postUserName a {
+    color: white;
+    outline: none;
+    text-decoration: none;
+    font-style: normal;
+}
+.reactionIcon{
+    width: 25px;
+    cursor: pointer;
+}
+.PostReactions{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+

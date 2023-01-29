@@ -1,0 +1,22 @@
+.fullPostCommentRight{
+    margin-left:3% ;
+    display: flex;
+    flex-direction: column;
+}
+
+.postUserNameComment
+{
+    cursor: pointer;
+    margin-bottom: 2px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    transition: 0.3s ease-in;
+
+}
+.commentsFullPost
+{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-bottom: 2%;
+    border-bottom: 1px groove;
+}

@@ -1,0 +1,28 @@
+.topIndiNewsOuter{
+color: rgb(102,106,111);
+font-size: smaller;
+    font-weight: 400;
+}
+.bottomIndiNewsOuter{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+.indiNewsOuter{
+ 
+    margin-bottom: 6%;
+    /* background-color: rgb(30 32 35); */
+    padding: 1%;
+    border-radius: 6px;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+.indiNewsOuter:hover{
+    transform: scale(1.05);
+    color: black !important;
+    background-color: rgb(0, 0, 0);
+    padding: 4%;
+}
+.indiNewsOuter a{
+    text-decoration: none;
+}

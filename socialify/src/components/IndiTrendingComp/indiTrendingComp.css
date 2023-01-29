@@ -1,0 +1,15 @@
+.upperIndiTrendingCompOuter{
+    color: rgb(102,106,111);
+    
+}
+.indiTrendingCompOuter{
+    padding: 3%;
+    cursor: pointer;
+    margin-bottom: 0%;
+    transition: 0.4s ease-in;
+}
+.indiTrendingCompOuter:hover{
+    background-color: rgb(22,24,28);
+    box-shadow: 2px 2px 2px 2px blue ;
+    border-radius:9px ;
+}

@@ -1,0 +1,91 @@
+.navLeftArrow{
+    width: 33px;
+   
+    cursor: pointer;
+}
+.navUserName{
+    font-size: larger;
+    font-weight: 400;
+}
+
+.navAndUserName
+{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navAndUserName a{
+    margin-left: 1%;
+    margin-right: 5%;
+}
+.navNumberOfSocialIfy{
+    color: rgb(102,106,111);
+}
+.navTextWraaper{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileBanner
+{
+    object-fit: contain;
+    height: 200px;
+    overflow: hidden;
+}
+.displayPictureProfilePageimage{
+    height: 133.5px;
+    width: 133.5px;
+}
+.displayPictureProfilePage
+{
+    border-radius: 50%;
+    object-fit: contain;
+    overflow: hidden;
+    border: 6px solid black;
+    margin-left: 1%;
+}
+.profileUpperLowerPart{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    margin-top: -15%;
+
+}
+.followProfilePage
+{   
+    margin-right: 3%;
+    color: black;
+    background-color: #ebefff;
+    padding: 2.5%;
+    position: relative;
+    top: -8px;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 21px;
+    cursor: pointer;
+
+}
+.followersNumberinProflie{
+    margin-right: 4%;
+}
+.followersNumberinProflie strong {
+    margin-right: 1%;
+}
+.followingNumberinProflie{
+    margin-right: 4%;
+}
+.followingNumberinProflie strong {
+    margin-right: 1%;
+}
+.profileLower
+{
+    margin-top: 1%;
+    border-top: 1px groove;
+}
+.profileUpperBioUSerNameFollower{
+    padding-left: 1%;
+}

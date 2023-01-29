@@ -1,0 +1,64 @@
+.logo{
+    color: white;
+}
+.logoImg{
+    
+    width: 29px;
+    height: 24px;
+    margin-right: 1rem;
+
+}
+.menubarMenuItems
+{
+   
+    display: flex;
+    cursor: pointer;
+    padding-right: 0rem;
+    padding: 1rem;
+    transition: ease-in 0.25s;
+    margin-bottom: 1rem;
+    
+}
+.menubarMenuItems:hover{
+    /* transform: scale(1.05); */
+    
+    background-color: rgb(22, 24, 28);
+    border-radius: 11px;
+  
+}
+.menuBarItemText{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    position: relative;
+    top: -2px;
+}
+.leftOuter{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+     position: fixed;
+    left: 9%;
+    top: 1%; 
+    height: 90%;
+    justify-content: space-between;
+}
+.logo{
+    margin-bottom: 2rem;
+}
+
+.LoginLeftText
+{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    position: relative;
+    top: -2px;
+
+}
+.LoginLeft{
+    position: relative;
+    left: -3rem;
+}

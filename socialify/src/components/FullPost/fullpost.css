@@ -1,0 +1,27 @@
+.TopNav{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+
+}
+
+.commentsFullPost
+{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.fullPostCommentLeft{
+    margin-left: 1%;
+}
+.FullPostAllComments{
+    padding: 1%;
+}
+.FullPostCommentsh5{
+    border-bottom: 1px groove;
+    padding-bottom: 2%;
+}
+.toCommentBox{
+    border-bottom: 1px groove;
+    padding-bottom: 5%;
+}

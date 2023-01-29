@@ -1,0 +1,24 @@
+.mainPage {
+  background-color: #000000;
+  height: 100vh;
+  color: white;
+  display: flex;
+}
+.right{
+  flex: 0.3;
+  border-left: 1px white groove ;
+}
+.mid{
+  flex: 0.4;
+  border-right: 1px white groove;
+  border-left: 1px white groove ;
+  height: fit-content;
+}
+.left{
+  flex: 0.3;
+  border-right: 1px white groove;
+
+}
+a{
+  text-decoration: none;
+}
